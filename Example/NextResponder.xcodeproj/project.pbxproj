@@ -14,6 +14,7 @@
 		4E2CB5821B4A61DC0015217B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E2CB5811B4A61DC0015217B /* Images.xcassets */; };
 		4E2CB5851B4A61DC0015217B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E2CB5831B4A61DC0015217B /* LaunchScreen.xib */; };
 		4E2CB5911B4A61DC0015217B /* NextResponderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2CB5901B4A61DC0015217B /* NextResponderTests.m */; };
+		4E2CB59C1B4A7C800015217B /* UITextField+NextResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2CB59B1B4A7C800015217B /* UITextField+NextResponder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		4E2CB58A1B4A61DC0015217B /* NextResponderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextResponderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2CB58F1B4A61DC0015217B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E2CB5901B4A61DC0015217B /* NextResponderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextResponderTests.m; sourceTree = "<group>"; };
+		4E2CB59A1B4A7C800015217B /* UITextField+NextResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+NextResponder.h"; path = "../UITextField+NextResponder.h"; sourceTree = "<group>"; };
+		4E2CB59B1B4A7C800015217B /* UITextField+NextResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+NextResponder.m"; path = "../UITextField+NextResponder.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		4E2CB5681B4A61DC0015217B = {
 			isa = PBXGroup;
 			children = (
+				4E2CB59A1B4A7C800015217B /* UITextField+NextResponder.h */,
+				4E2CB59B1B4A7C800015217B /* UITextField+NextResponder.m */,
 				4E2CB5731B4A61DC0015217B /* NextResponder */,
 				4E2CB58D1B4A61DC0015217B /* NextResponderTests */,
 				4E2CB5721B4A61DC0015217B /* Products */,
@@ -219,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E2CB57D1B4A61DC0015217B /* ViewController.m in Sources */,
+				4E2CB59C1B4A7C800015217B /* UITextField+NextResponder.m in Sources */,
 				4E2CB57A1B4A61DC0015217B /* AppDelegate.m in Sources */,
 				4E2CB5771B4A61DC0015217B /* main.m in Sources */,
 			);
@@ -413,6 +419,7 @@
 				4E2CB5961B4A61DC0015217B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E2CB5971B4A61DC0015217B /* Build configuration list for PBXNativeTarget "NextResponderTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +428,7 @@
 				4E2CB5991B4A61DC0015217B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
