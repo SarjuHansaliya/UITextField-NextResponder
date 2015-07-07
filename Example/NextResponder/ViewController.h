@@ -8,8 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate>
 
+@property (nonatomic,strong) IBOutlet UITextField *firstName;
+@property (nonatomic,strong) IBOutlet UITextField *lastName;
+@property (nonatomic,strong) IBOutlet UITextField *userName;
+@property (nonatomic,strong) IBOutlet UITextField *password;
+@property (nonatomic,strong) IBOutlet UITextField *confPassword;
+@property (nonatomic,strong) IBOutlet UITextField *city;
+@property (nonatomic,strong) IBOutlet UITextField *state;
 
+@property (nonatomic,strong) IBOutlet UIButton *registerBtn;
+
+-(IBAction)registerButtonPressed:(id)sender;
 @end
 

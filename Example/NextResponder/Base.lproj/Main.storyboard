@@ -27,6 +27,9 @@
                                 <rect key="frame" x="16" y="45" width="568" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Kvv-sL-flV"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lastname" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zRg-iA-ZwQ">
                                 <rect key="frame" x="16" y="83" width="64" height="17"/>
@@ -38,6 +41,9 @@
                                 <rect key="frame" x="16" y="108" width="568" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="qQd-N1-R4w"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Rm-Ga-ECb">
                                 <rect key="frame" x="16" y="146" width="66" height="17"/>
@@ -49,6 +55,9 @@
                                 <rect key="frame" x="16" y="171" width="568" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="qmV-D2-kl7"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zcA-bH-w9m">
                                 <rect key="frame" x="16" y="209" width="64" height="17"/>
@@ -60,6 +69,9 @@
                                 <rect key="frame" x="16" y="234" width="568" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="mrA-NY-32K"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirm Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CCt-Ss-Xon">
                                 <rect key="frame" x="16" y="272" width="119" height="17"/>
@@ -71,6 +83,9 @@
                                 <rect key="frame" x="16" y="297" width="568" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="LKc-MK-xwL"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HcW-Uz-7cg">
                                 <rect key="frame" x="16" y="335" width="26" height="17"/>
@@ -82,6 +97,9 @@
                                 <rect key="frame" x="16" y="360" width="568" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Mlb-4B-wKK"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="State" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGL-nc-5zb">
                                 <rect key="frame" x="16" y="398" width="34" height="17"/>
@@ -93,6 +111,9 @@
                                 <rect key="frame" x="16" y="423" width="568" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ypJ-w8-4VF"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gr9-vj-1mJ">
                                 <rect key="frame" x="264" y="505" width="73" height="34"/>
@@ -100,6 +121,9 @@
                                 <color key="tintColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <inset key="contentEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
                                 <state key="normal" title="Register"/>
+                                <connections>
+                                    <action selector="registerButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Twj-Hh-9F3"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -144,6 +168,15 @@
                             <constraint firstItem="Gr9-vj-1mJ" firstAttribute="top" secondItem="lX8-Tg-I5p" secondAttribute="bottom" constant="52" id="vs4-z9-NxF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="city" destination="JPl-M4-adB" id="gPm-0i-2OW"/>
+                        <outlet property="confPassword" destination="Itz-Fe-G1z" id="9bc-wQ-9sd"/>
+                        <outlet property="firstName" destination="WEi-Z6-P98" id="34c-Ut-lu0"/>
+                        <outlet property="lastName" destination="VnD-MA-nc5" id="lhF-Fe-i5h"/>
+                        <outlet property="password" destination="5AN-5s-xuZ" id="LBk-8C-QNa"/>
+                        <outlet property="state" destination="lX8-Tg-I5p" id="4nf-b4-esF"/>
+                        <outlet property="userName" destination="xtx-1T-EjX" id="yaK-mT-7uA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -10,6 +10,6 @@
 
 @interface UITextField (NextResponder)
 
-@property (nonatomic , strong) UIView * nextResponder;
+@property (nonatomic , strong) UIView * nextResponderView;
 
 @end

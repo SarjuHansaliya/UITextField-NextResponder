@@ -14,12 +14,13 @@ static char uniqueKey;
 @implementation UITextField (NextResponder)
 
 
--(UIView*)nextResponder{
-    return objc_getAssociatedObject(self, &uniqueKey);
+-(UIView*)nextResponderView{
+    return objc_getAssociatedObject(self, @selector(nextResponderView));
 }
 
--(void)setNextResponder:(UIView*)nextResponder{
-    objc_setAssociatedObject(self, &uniqueKey , nextResponder , OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+-(void)setNextResponderView:(NSObject*)nextResponder{
+    NSLog(@"t:%p",@selector(nextResponderView));
+    objc_setAssociatedObject(self, @selector(nextResponderView) , nextResponder , OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 @end
