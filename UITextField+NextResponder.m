@@ -19,7 +19,6 @@ static char uniqueKey;
 }
 
 -(void)setNextResponderView:(NSObject*)nextResponder{
-    NSLog(@"t:%p",@selector(nextResponderView));
     objc_setAssociatedObject(self, @selector(nextResponderView) , nextResponder , OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 

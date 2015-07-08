@@ -20,6 +20,8 @@
 
 @property (nonatomic,strong) IBOutlet UIButton *registerBtn;
 
+@property (nonatomic,strong) IBOutlet UIScrollView *scrollView;
+
 -(IBAction)registerButtonPressed:(id)sender;
 @end
 
